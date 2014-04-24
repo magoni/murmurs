@@ -1,3 +1,4 @@
 name: Murmurs Collective
 markdown: redcarpet
 pygments: true
+permalink: none
