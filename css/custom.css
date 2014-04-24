@@ -90,6 +90,7 @@ img.grayscale:hover {
 
 ul#releaselist {
   list-style-type: none;
+  text-align: center;
 }
 
 #releaselist li {
