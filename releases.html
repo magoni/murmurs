@@ -7,9 +7,9 @@ layout: default
       <ul id="releaselist">
       {% for post in site.categories.releases %}
         <li>
-          <a href="{{ post.url }}"><img src="{{ post.image }}"></a>
-          <a href="{{ post.url }}" class="rname">{{ post.title }}</a>
-          <a href="{{ post.url }}">{{ post.artist }}</a>
+          <a href="{{site.url}}{{ post.url }}"><img src="{{ post.image }}"></a>
+          <a href="{{site.url}}{{ post.url }}" class="rname">{{ post.title }}</a>
+          <a href="{{site.url}}{{ post.url }}">{{ post.artist }}</a>
         </li>
       {% endfor %}
       </ul>
