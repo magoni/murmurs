@@ -143,3 +143,9 @@ display: block;
   font-size: 30px;
   margin-top: 10em;
 }
+
+/* artists page */
+#artists li {
+  width: 180px;
+  height: 180px;
+}
