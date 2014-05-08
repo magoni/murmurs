@@ -153,6 +153,7 @@ display: block;
   width: 180px;
   height: 180px;
   float: left;
+  position: relative;
 }
 
 div#artistOverlay {
