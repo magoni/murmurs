@@ -7,14 +7,14 @@ title: artists
 <script src="lib/jquery-loadTemplate/jquery.loadTemplate-1.4.1.min.js"></script>
 <script src="artistfade.js"></script>
 <div id="artists">
-<div id="container">
-  <ul>
-    {% for post in site.categories.artists %}
-      <li>
-      <a href="{{site.url}}{{ post.url}}"><img src="{{site.url}}/artistimgs/{{ post.image }}"></a>
-      <div id="artistOverlay"><a href="{{site.url}}{{ post.url }}">{{ post.title }}</a></li>
-      </div>
-    {% endfor %}
-  </ul>
+  <div id="container">
+    <ul>
+      {% for post in site.categories.artists %}
+        <li>
+          <a href="{{site.url}}{{ post.url}}"><img src="{{site.url}}/artistimgs/{{ post.image }}"></a>
+          <div id="artistOverlay"><a href="{{site.url}}{{ post.url }}">{{ post.title }}</a></div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
 </div>
-</div>    
