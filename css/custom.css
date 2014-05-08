@@ -156,17 +156,13 @@ display: block;
 }
 
 div#artistOverlay {
+  position: absolute;
   display: block;
-  z-index: 100;
-  position: relative;
-  left: 0px;
-  top: -183px;
   text-align: center;
   background: #000;
   height: 180px;
   width: 180px;
   color: #fff;
-  opacity: .7;
 }
 
 div#artistOverlay a {
