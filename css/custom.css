@@ -155,6 +155,26 @@ display: block;
   float: left;
 }
 
+div#artistOverlay {
+  display: block;
+  z-index: 100;
+  position: relative;
+  left: 0px;
+  top: -183px;
+  text-align: center;
+  background: #000;
+  height: 180px;
+  width: 180px;
+  color: #fff;
+  opacity: .7;
+}
+
+div#artistOverlay a {
+  color: #fff;
+  text-decoration: none;
+  font-style: normal;
+}
+
 /* indiv artist pages */
 
 .acontent iframe {
