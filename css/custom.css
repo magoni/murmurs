@@ -197,3 +197,8 @@ span#artistname {
   width: 45%;
   margin-left: 4%;
 }
+
+/* animate fade-in*/
+#container {
+    opacity:0;
+}
