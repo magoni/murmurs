@@ -165,6 +165,7 @@ div#artistOverlay {
   width: 180px;
   color: #fff;
   bottom: 0px;
+  z-index: -10;
 }
 
 div#artistOverlay a {
