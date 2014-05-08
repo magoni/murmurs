@@ -202,3 +202,12 @@ span#artistname {
 #container {
     opacity:0;
 }
+
+/* splash */
+div#splash {
+    opacity:0;
+    margin: auto;
+    width: 850px;
+    height: 315px;
+    overflow:show;
+}
