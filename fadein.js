@@ -1,3 +1,3 @@
 $(document).ready(function(){
-    $('#container').animate({opacity : 1}, 300);
+    $('#container').animate({opacity : 1}, 500);
 });
