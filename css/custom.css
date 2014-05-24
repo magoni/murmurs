@@ -36,20 +36,15 @@ img.grayscale:hover {
 
 /* Begin Navigation Bar Styling */
 #nav {
-  width: 970px;
   margin: 0 auto;
-  padding: 2em;
   list-style: none;
-  background-color: #fff;
-  border-bottom: 0px solid #fff; 
-  border-top: 0px solid #fff;
 }
 #nav li {
   float: left;
 }
 #nav li a {
   display: block;
-  padding: 8px 40px;
+  padding: 7px 38px;
   text-decoration: none;
   font-weight: bold;
   color: #000;
@@ -62,57 +57,36 @@ img.grayscale:hover {
 }
 
 #navcontainer {
-  width:100%;
   padding-bottom: 2em;
 }
 /* End navigation bar styling. */
 
-/* container artists page max width for grid */
-
-#container {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
 #container a img {
   margin:0;
 }
-#releases iframe {
+.releases iframe {
   display: block;
   margin: 2em auto;
   width: 400px;
 }
 #cyphers iframe {
   display: block;
-  margin: 2em auto;
-  width: 700px;
 }
 
-ul#releaselist {
-  list-style: none;
+.releases {
   text-align: center;
 }
 
-#releaselist li {
-  max-width: 290px;
-  float: left;
-  margin: 20px;
+.releases img {
+    max-width:360px;
 }
 
-#releaselist img {
-margin-top:10px;
-}
-
-#releaselist a {
-display: block;
-}
-
-#releaselist a:link, a:visited {
+.releases a:link, a:visited {
   color: #000;
   text-decoration: none;
 }
 
-#releaselist .rname {
+.releases .rname {
   font-weight:bold;
   letter-spacing: 1px;
 }
@@ -121,17 +95,6 @@ display: block;
   width:80%;
   height:400px;
   border:0;
-}
-
-.rimage {
-  float: left;
-  max-width: 50%;
-}
-
-.rcontent {
-  float: left;
-  width: 45%;
-  margin-left: 4%;
 }
 
 .reltitle {
@@ -150,8 +113,8 @@ display: block;
 }
 
 #artists li {
-  width: 180px;
-  height: 180px;
+  width: 225px;
+  height: 225px;
   float: left;
   position: relative;
 }
@@ -161,8 +124,8 @@ div#artistOverlay {
   display: block;
   text-align: center;
   background: #000;
-  height: 180px;
-  width: 180px;
+  height: 225px;
+  width: 225px;
   color: #fff;
   bottom: 0px;
   z-index: -10;
