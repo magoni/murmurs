@@ -38,6 +38,7 @@ img.grayscale:hover {
 #nav {
   margin: 0 auto;
   list-style: none;
+  min-width:700px;
 }
 #nav li {
   float: left;
@@ -203,8 +204,8 @@ div#splash {
 }
 
 #head {
-  width:276px;
-  height:260px;
+  width:200px;
+  height:188px;
   overflow:hidden;
   background: url("http://fleecehop.github.io/murmurs/logo.png") no-repeat center center;
   margin: 20px auto;
