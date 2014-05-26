@@ -116,8 +116,8 @@ img.grayscale:hover {
 }
 
 #artists li {
-  width: 228px;
-  height: 228px;
+  width: 20%;
+  height: 20%;
   float: left;
   position: relative;
 }
@@ -127,8 +127,8 @@ div#artistOverlay {
   display: block;
   text-align: center;
   background: #000;
-  height: 228px;
-  width: 228px;
+  height: 100%;
+  width: 100%;
   color: #fff;
   bottom: 0px;
   z-index: -10;
