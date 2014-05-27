@@ -13,8 +13,8 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
+  background: #fff url('/murmurs/yo.png') no-repeat right top;
+  font: 13.34px 'Istok Web', Helvetica, Arial, sans-serif;
   font-size: small;
 }
 
