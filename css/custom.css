@@ -228,3 +228,7 @@ div#news li {
   padding: 0px 15px;
   /* background: #fff; */
 }
+
+.news {
+  text-align:center;
+}
