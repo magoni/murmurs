@@ -210,3 +210,21 @@ div#splash {
   background: url("http://fleecehop.github.io/murmurs/logo.png") no-repeat center center;
   margin: 20px auto;
 }
+
+/* news */
+div#news {
+  width: 50%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+div#news ul {
+  list-style: none;
+}
+
+div#news li {
+  margin-bottom: 2em;
+  border: 1px solid #ccc;
+  padding: 0px 15px;
+  /* background: #fff; */
+}
