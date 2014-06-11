@@ -105,8 +105,9 @@ img.grayscale:hover {
 }
 
 #contact {
-  font-size: 30px;
-  margin-top: 10em;
+  font-size: 133%;
+  margin: 5em auto;
+  text-align: center;
 }
 
 /* artists page */
