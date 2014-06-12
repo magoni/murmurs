@@ -36,7 +36,7 @@ img.grayscale:hover {
 
 /* Begin Navigation Bar Styling */
 #navbox {
-  border: 1px dashed #999;
+  border: 4px double #999;
 }
 #nav {
   margin: 0 auto;
@@ -47,7 +47,7 @@ img.grayscale:hover {
   float: left;
   width: 11.1%;
   text-align: center;
-  border-right: 1px dashed #999;
+  border-right: 4px double #999;
 }
 #nav li:last-child {
   border-right: 0;
@@ -208,7 +208,7 @@ div#splash {
 #footer {
   margin-top: 50px;
   margin-bottom: 25px;
-  border: 1px dashed #999;
+  border: 4px double #999;
   color: #777;
   padding: 0 1.3em;
 }
