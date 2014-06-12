@@ -230,8 +230,6 @@ div#splash {
 
 /* news */
 div#news {
-  width: 50%;
-  margin: 0 auto;
   text-align: justify;
 }
 
@@ -246,6 +244,42 @@ div#news li {
   /* background: #fff; */
 }
 
-.news {
-  text-align:center;
+.newsbox {
+  border: 4px double #777;
+  padding: 1em;
+  margin-bottom: 2em;
+}
+.newsbox ul {
+  margin-left: 2em;
+}
+.newsbox h2 {
+  text-decoration: underline;
+  margin-bottom: 1em;
+}
+
+/* cyphers page */
+.cypherbox {
+  width: 33%;
+  padding: 1em;
+}
+
+.cypherbox article {
+  padding: 1em;
+  border: 4px double #777;
+}
+
+#cyphers {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* -------- */
+.entry {
+  color: #777;
+  margin-bottom:0;
+}
+.entry a:link, .entry a:visited {
+  color:#777 !important;
 }
