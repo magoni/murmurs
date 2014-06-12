@@ -4,12 +4,10 @@ title: artists
 ---
 <script src="artistfade.js"></script>
 <div id="artists" class="grid container">
-  <ul>
     {% for post in site.categories.artists %}
-      <li>
+    <div class="col-1-5 artist">
         <a href="{{site.url}}{{ post.url}}"><img src="{{site.url}}/artistimgs/{{ post.image }}"></a>
         <div id="artistOverlay"><span id="artistname"><a href="{{site.url}}{{ post.url }}">{{ post.title }}</a></span></div>
-      </li>
+    </div>
     {% endfor %}
-  </ul>
 </div>
