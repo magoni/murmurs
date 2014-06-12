@@ -120,6 +120,10 @@ img.grayscale:hover {
 
 /* artists page */
 
+#artists {
+  margin-top: -1.5em;
+}
+
 .artist {
   padding: 1em !important;
   position: relative;
