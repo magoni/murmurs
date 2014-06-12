@@ -35,6 +35,9 @@ img.grayscale:hover {
 }
 
 /* Begin Navigation Bar Styling */
+.current {
+  text-decoration: underline !important;
+}
 #navbox {
   border: 4px double #777;
 }
