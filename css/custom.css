@@ -213,6 +213,10 @@ div#splash {
   padding: 0 1.3em;
 }
 
+#footer .col-4-12 {
+  text-align: right;
+}
+
 #head {
   opacity:0;
   width:200px;
