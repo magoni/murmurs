@@ -22,11 +22,18 @@
   </div>
   <div id="navbox" class="col-1-1">
     <ul id="nav">
-      <li><a href="{{site.url}}/news.html">News</a></li>
-      <li><a href="{{site.url}}/artists.html">Artists</a></li>
-      <li><a href="{{site.url}}/releases.html">Releases</a></li>
-      <li><a href="{{site.url}}/exclusives.html">Exclusives</a></li>
-      <li><a href="{{site.url}}/cyphers.html">Cyphers</a></li>
+    {% if page.title == "news" %}<li><a href="{{site.url}}/news.html" class="current">News</a></li>
+    {% else %}<li><a href="{{site.url}}/news.html">News</a></li>{% endif %}
+    {% if page.title == "artists" %}<li><a href="{{site.url}}/artists.html" class="current">Artists</a></li>
+    {% elsif page.category == "artists" %}<li><a href="{{site.url}}/artists.html" class="current">Artists</a></li>
+    {% else %}<li><a href="{{site.url}}/artists.html">Artists</a></li>{% endif %}
+    {% if page.title == "releases" %}<li><a href="{{site.url}}/releases.html" class="current">Releases</a></li>
+    {% elsif page.category == "releases" %}<li><a href="{{site.url}}/releases.html" class="current">Releases</a></li>
+    {% else %}<li><a href="{{site.url}}/releases.html">Releases</a></li>{% endif %}
+    {% if page.title == "exclusive tracks" %} <li><a href="{{site.url}}/exclusives.html" class="current">Exclusives</a></li>
+    {% else %}<li><a href="{{site.url}}/exclusives.html">Exclusives</a></li>{% endif %}
+    {% if page.title == "cyphers" %}<li><a href="{{site.url}}/cyphers.html" class="current">Cyphers</a></li>
+    {% else %}<li><a href="{{site.url}}/cyphers.html">Cyphers</a></li>{% endif %}
       <li><a href="https://soundcloud.com/murmurscollective">Soundcloud</a></li>
       <li><a href="http://murmurscollective.bandcamp.com/">Bandcamp</a></li>
       <li><a href="https://www.facebook.com/ahushfell?fref=ts">Facebook</a></li>
