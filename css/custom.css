@@ -36,7 +36,7 @@ img.grayscale:hover {
 
 /* Begin Navigation Bar Styling */
 #navbox {
-  border: 4px double #999;
+  border: 4px double #777;
 }
 #nav {
   margin: 0 auto;
@@ -47,7 +47,7 @@ img.grayscale:hover {
   float: left;
   width: 11.1%;
   text-align: center;
-  border-right: 4px double #999;
+  border-right: 4px double #777;
 }
 #nav li:last-child {
   border-right: 0;
@@ -239,7 +239,7 @@ div#news ul {
 
 div#news li {
   margin-bottom: 2em;
-  border: 1px solid #ccc;
+  border: 4px double #777;
   padding: 0px 15px;
   /* background: #fff; */
 }
