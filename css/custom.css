@@ -56,7 +56,6 @@ img.grayscale:hover {
   display: block;
   padding: 7px 0;
   text-decoration: none;
-  font-weight: bold;
   color: #000;
 }
 #nav li a:hover {
@@ -120,14 +119,9 @@ img.grayscale:hover {
 }
 
 /* artists page */
-#artists ul {
-  list-style-type: none;
-}
 
-#artists li {
-  width: 20%;
-  height: 20%;
-  float: left;
+.artist {
+  padding: 1em !important;
   position: relative;
 }
 
@@ -136,11 +130,12 @@ div#artistOverlay {
   display: block;
   text-align: center;
   background: #000;
-  height: 100%;
-  width: 100%;
+  height: 86%;
+  width: 89%;
   color: #fff;
-  bottom: 0px;
+  bottom: 8%;
   z-index: -10;
+  padding: 1em;
 }
 
 div#artistOverlay a {
@@ -206,8 +201,8 @@ div#splash {
 }
 
 #footer {
-  margin-top: 50px;
-  margin-bottom: 25px;
+  margin-top: 1em;
+  margin-bottom: 2em;
   border: 4px double #777;
   color: #444;
   padding: 0 1.3em;
