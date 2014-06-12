@@ -35,6 +35,9 @@ img.grayscale:hover {
 }
 
 /* Begin Navigation Bar Styling */
+#navbox {
+  border: 1px dashed #999;
+}
 #nav {
   margin: 0 auto;
   list-style: none;
@@ -44,6 +47,10 @@ img.grayscale:hover {
   float: left;
   width: 11.1%;
   text-align: center;
+  border-right: 1px dashed #999;
+}
+#nav li:last-child {
+  border-right: 0;
 }
 #nav li a {
   display: block;
@@ -51,15 +58,17 @@ img.grayscale:hover {
   text-decoration: none;
   font-weight: bold;
   color: #000;
-  border-right: 1px solid #ccc;
-  border-left: 1px solid #ccc;
 }
 #nav li a:hover {
-  color: #ccc;
+  color: #999;
 }
 
 #navcontainer {
   padding-bottom: 2em;
+}
+
+#headcontainer {
+  padding: 0 !important;
 }
 /* End navigation bar styling. */
 
@@ -199,8 +208,9 @@ div#splash {
 #footer {
   margin-top: 50px;
   margin-bottom: 25px;
-  border-top: 1px solid #ccc;
-  color: #aaa;
+  border: 1px dashed #999;
+  color: #777;
+  padding: 0 1.3em;
 }
 
 #head {
