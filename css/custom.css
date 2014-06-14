@@ -61,9 +61,6 @@ img.grayscale:hover {
   text-decoration: none;
   color: #000;
 }
-#nav li a:hover {
-  color: #555;
-}
 
 #navcontainer {
   padding-bottom: 2em;
