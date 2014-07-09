@@ -22,8 +22,8 @@
   </div>
   <div id="navbox" class="col-1-1">
     <ul id="nav">
-    {% if page.title == "news" %}<li><a href="{{site.url}}/news.html" class="current">News</a></li>
-    {% else %}<li><a href="{{site.url}}/news.html">News</a></li>{% endif %}
+    {% if page.title == "news" %}<li><a href="{{site.url}}/index.html" class="current">News</a></li>
+    {% else %}<li><a href="{{site.url}}/index.html">News</a></li>{% endif %}
     {% if page.title == "artists" %}<li><a href="{{site.url}}/artists.html" class="current">Artists</a></li>
     {% elsif page.category == "artists" %}<li><a href="{{site.url}}/artists.html" class="current">Artists</a></li>
     {% else %}<li><a href="{{site.url}}/artists.html">Artists</a></li>{% endif %}
