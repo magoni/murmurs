@@ -1,5 +1,3 @@
-murmurs
-=======
+http://murmurscollective.net
 
-murmurs demo<br>
-using jekyll [http://jekyllrb.com/](http://jekyllrb.com/)
+website for a music collective based in halifax, ns, canada
