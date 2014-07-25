@@ -13,7 +13,7 @@
 html, body { height: 100%; }
 
 body {
-  background: #fff url('http://fleecehop.github.io/murmurs/bg1.jpg') repeat center center;
+  background: #fff url('/bg1.jpg') repeat center center;
   font: 13.34px 'Istok Web', Helvetica, Arial, sans-serif;
   font-size: small;
 }

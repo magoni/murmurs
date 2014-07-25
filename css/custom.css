@@ -226,6 +226,10 @@ div#splash {
 }
 
 /* news */
+.tweet img {
+  max-width: 15px;
+  margin-right: 2px;
+}
 div#news {
   text-align: justify;
 }
