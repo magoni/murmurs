@@ -7,6 +7,7 @@ image: andmyloafers.jpg
 <p>and my loafers</p>
 <p>melloooow vibes ~ abstract stuff</p>
 <p>☹</p>
+<a href="https://www.facebook.com/pages/and-my-loafers/197554897097148">andmyloafers fb</a>
 <a href="http://andmyloafers.bandcamp.com">andmyloafers.bandcamp.com</a>
 <a href="https://twitter.com/andmyloafers">twitter.com/andmyloafers</a>
 <a href="https://soundcloud.com/andmyloafers">soundcloud.com/andmyloafers</a>
