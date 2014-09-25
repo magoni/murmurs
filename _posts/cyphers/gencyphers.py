@@ -1,7 +1,7 @@
 import json
 import human_curl as requests
 
-cypherurls = ['murmurs-weekly-beat-cypher-vol-10']
+cypherurls = ['murmurs-weekly-beat-cypher-vol']
 # cypherurls = ['murmurs-weekly-beat-cypher-vol-9', 'murmurs-weekly-beat-cypher-vol-8', 'murmurs-weekly-beat-cypher-vol-7', 'murmurs-cypher-6-mix', 'murmurs-weekly-beat-cypher-vol-5', 'murmurs-weekly-beat-cypher-vol-4', 'murmurs-weekly-beat-cypher-vol-3', 'mm-wbc2', 'mm-wbc1']
 
 for curl in cypherurls:
